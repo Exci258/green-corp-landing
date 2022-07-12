@@ -67,7 +67,7 @@ button {
 
 .about {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 115px 20px;
     background: url('img/back.png') no-repeat;
