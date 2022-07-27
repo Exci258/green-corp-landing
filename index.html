@@ -10,23 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Солнечные батареи GreenCorp</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <img class="header__logo" src='img/logo.svg' alt="GreenCorp Logo">
         <div class="header__controls">
-            <a href="#contacts">Контакты</a>
-            <button>Заказать</button>
+            <a href="#contacts" class="header__link">Контакты</a>
+            <button class="header__button">Заказать</button>
         </div>
     </header>
     <section class="about">
         <div class="about__info animate__animated animate__fadeInLeft animate__slow">
-            <h1>Солнечные панели GreenRobotic</h1>
-            <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-            <button>Узнать подробнее <i class="fa-solid fa-angle-right"></i></button>
+            <h1 class="about__title">Солнечные панели GreenRobotic</h1>
+            <p class="about__description">Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
+            <button class="about__button">Узнать подробнее <i class="fa-solid fa-angle-right"></i></button>
         </div>
         <div class="about__images animate__animated animate__fadeInRight animate__slow">
             <img class="about__sun-image" src="img/sun.png" alt="Sun">
@@ -35,8 +35,9 @@
     </section>
     <section class="form">
         <div class="form__containter">
-            <h2>Оставьте свои контакты.</h2>
-            <p>Поможем подобрать модель.<br>Выбрать удобный вариант доставки и установки.<br>Гарантия возврата денег.
+            <h2 class="form__title">Оставьте свои контакты.</h2>
+            <p class="form__description">Поможем подобрать модель.<br>Выбрать удобный вариант доставки и
+                установки.<br>Гарантия возврата денег.
             </p>
             <form>
                 <div class="form__group">
@@ -61,11 +62,11 @@
                         <option value="100+">100 000₽</option>
                     </select>
                 </div>
-                <button type="submit" class="form__submit">Отправить заявку</button>
+                <button type="submit" class="form__button">Отправить заявку</button>
             </form>
         </div>
     </section>
-    <footer>
+    <footer class="footer">
         <div class="footer__container">
             <div class="footer__group">
                 <h3>Позвонить нам:</h3>
