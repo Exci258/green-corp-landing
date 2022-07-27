@@ -1,0 +1,21 @@
+@import '_variables';
+@import '_mixins';
+@import '_animations';
+
+body {
+    font-family: $main-font;
+    color: $color-main;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $color-main;
+}
+
+@import '_header';
+@import '_about';
+@import '_form';
+@import '_footer';
+
+@import '_media';

@@ -1,0 +1,11 @@
+@mixin button-green ($fz, $br, $padd) {
+    font-family: $main-font;
+    font-size: $fz;
+    color: #fff;
+    background-color: $color-btn-green;
+    border: none;
+    border-radius: $br;
+    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+    padding: $padd;
+    cursor: pointer;
+}
