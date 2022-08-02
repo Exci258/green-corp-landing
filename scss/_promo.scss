@@ -1,0 +1,60 @@
+.promo {
+    display: flex;
+
+    &__image {
+        background-image: url('../img/promo.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        flex-shrink: 0;
+
+    }
+
+    &__right {
+        background-color: #dd5f26;
+        padding: 160px 60px;
+    }
+
+    &__card {
+        background-color: $color-secondary;
+        padding: 30px 40px;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 500;
+        border-radius: 25px;
+
+        h2 {
+            font-size: 22px;
+        }
+
+        p {
+            opacity: .8;
+            font-size: 16px;
+            line-height: 22px;
+
+            &::before {
+                color: #ec6b29;
+                margin-right: 10px;
+                content: "●";
+
+            }
+        }
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+
+        button {
+            @include button-green(18px, 15px, 15px 30px);
+            background-color: #107b1c;
+            margin-top: 20px;
+            font-weight: 600;
+
+            i {
+                font-size: 15px;
+                margin-left: 5px;
+            }
+        }
+    }
+}

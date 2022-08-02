@@ -1,0 +1,112 @@
+.features {
+    background-color: $color-secondary;
+    padding: 115px 60px;
+
+    &__border {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 1px solid #E6EAF4;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.card {
+    padding: 35px 40px 25px 40px;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+
+    &__logo {
+        width: 100px;
+        height: 100px;
+        font-size: 32px;
+        font-weight: 700;
+        background-color: $bg-logo-color;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .fa-solar-panel {
+            color: $first-card-color;
+        }
+
+        span {
+            color: $second-card-color;
+        }
+
+        .fa-chart-line {
+            color: $third-card-color;
+        }
+    }
+
+    &__title {
+        font-size: 18px;
+    }
+
+    &__description {
+        font-size: 16px;
+        line-height: 22px;
+        opacity: .8;
+    }
+
+}
+
+.features__feedback {
+    display: flex;
+    align-items: center;
+
+    &-left {
+        margin-right: 10px;
+
+        h2 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 26px;
+            opacity: .7;
+        }
+    }
+
+    &-right {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.features__box {
+    padding: 30px 40px 25px 40px;
+    color: $color-secondary;
+    border-radius: 25px;
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 48px;
+    }
+}
+
+.features__savings-box {
+    background-color: #dc5e26;
+    box-shadow: 0px 6px 0 rgb(29 38 58 / 20%);
+    margin-right: 30px;
+}
+
+.features__rate-box {
+    background-color: #1D263A;
+    box-shadow: 0px 6px 0 rgb(29 38 58 / 20%);
+}
+
+.stars {
+    color: #ff7039;
+}
+
+.fa-solid {}
+
+.fa-star {}
