@@ -8,6 +8,7 @@
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
+    position: relative;
 
     &__images {
         position: relative;
@@ -47,5 +48,12 @@
 
     &__info {
         max-width: 550px;
+    }
+
+    .orb-canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
     }
 }

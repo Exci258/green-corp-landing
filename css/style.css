@@ -60,6 +60,7 @@ a {
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
+  position: relative;
 }
 .about__images {
   position: relative;
@@ -101,6 +102,12 @@ a {
 }
 .about__info {
   max-width: 550px;
+}
+.about .orb-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
 }
 
 .form {
