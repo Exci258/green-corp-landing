@@ -44,6 +44,10 @@
     &__button {
         @include button-green(18px, 20px, 20px 25px);
         margin-top: 20px;
+
+        &:hover {
+            @include button-hover;
+        }
     }
 
     &__info {

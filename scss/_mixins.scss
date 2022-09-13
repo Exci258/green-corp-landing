@@ -9,3 +9,7 @@
     padding: $padd;
     cursor: pointer;
 }
+
+@mixin button-hover {
+    background-color: #f6980c;
+}

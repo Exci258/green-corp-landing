@@ -56,6 +56,9 @@ a {
   padding: 15px;
   cursor: pointer;
 }
+.header__button:hover {
+  background-color: #f6980c;
+}
 
 .about {
   display: flex;
@@ -106,6 +109,9 @@ a {
   padding: 20px 25px;
   cursor: pointer;
   margin-top: 20px;
+}
+.about__button:hover {
+  background-color: #f6980c;
 }
 .about__info {
   max-width: 550px;

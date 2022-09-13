@@ -28,5 +28,9 @@
 
     &__button {
         @include button-green(15px, 15px, 15px);
+
+        &:hover {
+            @include button-hover;
+        }
     }
 }
